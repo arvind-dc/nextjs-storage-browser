@@ -1,6 +1,6 @@
 import { defineStorage } from "@aws-amplify/backend";
 
-export const firstBucket = defineStorage({
+export const storage = defineStorage({
   name: "storage-browser-test",
   isDefault: true
 });
