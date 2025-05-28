@@ -23,8 +23,6 @@ function Example() {
       options: {
         defaultPrefixes: [
           "client-a/",
-          // (identityId: string) => `protected-useronlyreadwritedelete/${identityId}/`,
-          // (identityId: string) => `private-useronlyreadwritedelete/${identityId}/`,
         ],
       },
     }),
