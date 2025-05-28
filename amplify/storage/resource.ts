@@ -1,7 +1,7 @@
 import { defineStorage } from "@aws-amplify/backend";
 
 export const storage = defineStorage({
-  name: "delta-qwyn-package-dc",
+  name: "storage-browser-test",
   access: (allow: any) => ({
     'client-a/*': [allow.authenticated.to(['read', 'write'])],
     // 'media-readonly/*': [allow.authenticated.to(['read'])],
